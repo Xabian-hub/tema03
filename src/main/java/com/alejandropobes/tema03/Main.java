@@ -8,7 +8,5 @@ public class Main {
         System.out.println("Indica un numero: ");
         int i = Integer.parseInt(scanner.nextLine());
         System.out.println("Hello world!");
-        int x = i++;
-        int y = ++i;
     }
 }
