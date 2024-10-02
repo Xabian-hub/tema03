@@ -14,9 +14,11 @@ public class Ejercicio4 {
         numero2 = Float.parseFloat(scanner.nextLine());
         scanner.close();
 
-        if (numero1 < numero2)
+        if (numero1 < numero2) {
             System.out.println(numero1 + "\n" + numero2);
-        else
+
+        }else {
             System.out.println(numero2 + "\n" + numero1);
         }
     }
+}

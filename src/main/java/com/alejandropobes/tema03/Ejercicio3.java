@@ -10,10 +10,10 @@ public class Ejercicio3 {
         System.out.println("Por favor introduce tu edad");
         edad = Integer.parseInt(scaner.nextLine());
         scaner.close();
-        if (edad >= 18)
+        if (edad >= 18) {
             System.out.println("Eres mayor de edad");
-        else
+        }else {
             System.out.println("Eres menor de edad");
-
+        }
     }
 }

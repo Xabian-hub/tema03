@@ -13,11 +13,15 @@ public class Ejercicio2 {
         System.out.println("Ahora por favor introduce el segundo numero");
         numero2 = Float.parseFloat(scanner.nextLine());
         scanner.close();
-        if (numero1 < numero2)
+
+        if (numero1 < numero2) {
             System.out.println("El primer numero introducido es menor al segundo");
-        else if (numero1 > numero2)
+
+        }else if (numero1 > numero2) {
             System.out.println("El primer numero introducido es mayor al segundo");
-        else if (numero1 == numero2)
+
+        }else if (numero1 == numero2) {
             System.out.println("El primer numero introducido es igual al segundo");
+        }
     }
 }
