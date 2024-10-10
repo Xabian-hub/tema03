@@ -1,4 +1,4 @@
-package com.alejandropobes.tema03;
+package com.alejandropobes.tema03.estructurasCondicionales;
 import java.util.Scanner;
 
 public class Ejercicio1 {
