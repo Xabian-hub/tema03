@@ -13,7 +13,6 @@ public class Ejercicio11 {
         do {
             System.out.print("Introduce un número (negativo para terminar): ");
             numero = scanner.nextInt();
-
             // Si el número es positivo, se suma a la suma total y se incrementa el contador
             if (numero >= 0) {
                 suma += numero;
