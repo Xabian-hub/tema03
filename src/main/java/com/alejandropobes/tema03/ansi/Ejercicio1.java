@@ -8,7 +8,7 @@ public class Ejercicio1 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Introduce un número real: ");
 
-        double numero = scanner.nextDouble();
+        double numero = Double.parseDouble(scanner.nextLine());
 
         System.out.printf("El número con dos decimales es: %.2f%n", numero);
         scanner.close();
